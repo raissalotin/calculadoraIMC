@@ -1,0 +1,15 @@
+.perigo{
+    background-color: red;
+}
+.alerta{
+    background-color: orangered;
+}
+.cuidado {
+    background-color: orange;
+}
+.ideal {
+    background-color: green;
+}
+.moderado {
+    background-color: greenyellow;
+}
