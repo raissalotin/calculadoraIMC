@@ -6,7 +6,7 @@ function calculaIMC() {
    
     const resultado = peso / (altura * altura);
   
-    document.getElementById("resultado-IMC").innerHTML = `Seu nome é ${nome} e seu indice de massa corporal é de ${resultado.toFixed()}`;
+    document.getElementById("resultado-IMC").innerHTML = `</br> Seu nome é ${nome} e seu indice de massa corporal é de ${resultado.toFixed()}`;
    
     let resposta;
     let classe;
@@ -41,6 +41,7 @@ function calculaIMC() {
       resposta = `obesidade grau 3 (mórbida) </br>`;
       classe = 'perigo'
   }
-    document.getElementById("resultado-categoria").innerHTML = ` Voce está com o indice de ${resposta}`;
+    document.getElementById("resultado-categoria").innerHTML = `Voce está com o indice de ${resposta}`;
+    
     document.getElementById("resultado-categoria").className = classe;
 }

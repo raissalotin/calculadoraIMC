@@ -13,3 +13,10 @@
 .moderado {
     background-color: greenyellow;
 }
+body{
+        text-align: center;
+        width: auto;
+}
+h2{
+        text-decoration: underline;
+}
