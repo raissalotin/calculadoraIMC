@@ -1,17 +1,17 @@
 .perigo{
-    background-color: red;
+    color: red;
 }
 .alerta{
-    background-color: orangered;
+    color: orangered;
 }
 .cuidado {
-    background-color: orange;
+    color: orange;
 }
 .ideal {
-    background-color: green;
+    color: green;
 }
 .moderado {
-    background-color: greenyellow;
+    color: greenyellow;
 }
 body{
         text-align: center;
